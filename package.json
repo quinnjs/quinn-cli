@@ -1,0 +1,37 @@
+{
+  "name": "quinn-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for quinn",
+  "bin": {
+    "quinn": "bin/quinn"
+  },
+  "scripts": {
+    "test": "make clean lint test check-checkout-clean"
+  },
+  "author": {
+    "name": "Jan Krems",
+    "email": "jan.krems@gmail.com>"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^0.1.0",
+    "quinn": "^2.2.1"
+  },
+  "devDependencies": {
+    "jshint": "~2.5.1",
+    "mocha": "^1.20.1",
+    "quinnc": "^1.0.0",
+    "reakt": "0.0.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkrems/quinn2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkrems/quinn2/issues"
+  },
+  "homepage": "https://github.com/jkrems/quinn2"
+}
